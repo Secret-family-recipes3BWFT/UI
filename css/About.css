@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border: solid gray 1px;
+    /* border: solid gray 1px; */
  }
  html{
     font-size:62.5%;
@@ -58,7 +58,63 @@ nav h1{
     background-color:#EBCD20;
     color: #111111;
 }
+.names{
+    margin: 2% auto;
+    background-color: #EBCD20;
+}
+.names img{
+    height: 45vh;
+    border: solid #111111 5px;
+    border-radius: 15px;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+.first div{
+    width: 25%;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second div{
+    width: 30%;
+}
 footer nav{
     display: flex;
     justify-content: space-around;
+}
+@media(max-width: 500px){
+    header nav{
+       display: flex;
+       flex-direction: column;
+       height: 60vh;
+   }
+   .logo{
+       width: 50%;
+   }
+   nav h2{
+       font-size: 2.5rem;
+   }
+   .links{
+       margin-bottom: 5%;
+   }
+   .links a {
+       font-size: 1.4rem;
+   }
+   .who h1{
+       font-size: 2.0rem;
+       padding: 1%;
+   }
+   .names img{
+       height: 25vh;
+   }
+   .names h2{
+       font-size: 2.0rem;
+   }
+   .names p{
+       font-size: 1.8rem;
+   }
 }
