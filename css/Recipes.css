@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border: solid gray 1px;
+    /* border: solid gray 1px; */
  }
  html{
     font-size:62.5%;
@@ -58,7 +58,43 @@ nav h1{
     background-color:#EBCD20;
     color: #111111;
 }
+.middle{
+    background-color: #EBCD20;
+}
+.first, .second{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first img, .second img{
+    height: 45vh;
+    width: 100%;
+}
+.second div, .first div{
+    width: 30%;
+}
 footer nav{
     display: flex;
     justify-content: space-around;
+}
+@media(max-width: 500px){
+    header nav{
+       display: flex;
+       flex-direction: column;
+       height: 60vh;
+   }
+   .logo{
+       width: 50%;
+   }
+   nav h2{
+       font-size: 2.5rem;
+   }
+   .links{
+       margin-bottom: 5%;
+   }
+   .links a {
+       font-size: 1.4rem;
+   }
+   .chowder h3{
+       font-size: 2.0rem;
+   }
 }
