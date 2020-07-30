@@ -94,6 +94,16 @@ footer nav{
    .links a {
        font-size: 1.4rem;
    }
+   .first, .second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first div, .second div{
+    width: 75%;
+    margin: 2% 0;
+}
    .chowder h3{
        font-size: 2.0rem;
    }

@@ -108,8 +108,18 @@ footer nav{
        font-size: 2.0rem;
        padding: 1%;
    }
+   .first, .second{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+   .first div, .second div{
+       width: 75%;
+   }
    .names img{
        height: 25vh;
+       width: 60%;
    }
    .names h2{
        font-size: 2.0rem;
