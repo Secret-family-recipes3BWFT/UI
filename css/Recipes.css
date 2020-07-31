@@ -76,6 +76,11 @@ footer nav{
     display: flex;
     justify-content: space-around;
 }
+@media(max-width: 800px){
+    nav h1{
+        font-size: 2.5rem;
+    }
+}
 @media(max-width: 500px){
     header nav{
        display: flex;
